@@ -1,0 +1,12 @@
+steps:
+ - run:
+     name: Ubuntu with tools
+     image: ubuntu:17.10
+     cache: true
+     script: apt-get update && apt-get install -y make gcc
+ - run:
+     name: Build app
+     step: Ubuntu with tools
+     script: |-
+       cd /app
+       make

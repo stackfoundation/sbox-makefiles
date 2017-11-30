@@ -1,0 +1,4 @@
+steps:
+ - run:
+     image: ubuntu:17.10
+     script: /app/bash-script.sh
