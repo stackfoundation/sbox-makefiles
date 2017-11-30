@@ -17,3 +17,5 @@ Try running a simple hello world bash script:
 ```
 ./sbox run hello-script
 ```
+
+If you have issues running Sandbox, please help us by filing an issue in the [Sandbox GitHub repo](https://github.com/stackfoundation/sandbox)!
